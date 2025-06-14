@@ -28,9 +28,14 @@ Two-phase training strategy:
 
 ## Folder Structure
 
-├── dataset/                 # Image data
-├── train.py                 # Model training and evaluation script
-├── plastic_classifier.h5    # Saved model
-├── requirements.txt         # Python dependencies
-├── README.md                # This file
+```plastic-waste-classifier/
+├── dataset/
+│   ├── train/
+│   ├── val/
+│   └── test/
+├── train.py
+├── README.md
+├── requirements.txt
+├── .gitignore```
+
 
